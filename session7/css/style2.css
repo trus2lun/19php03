@@ -1,0 +1,26 @@
+*{ margin: 10px;
+padding: 20px; }
+nav {
+	box-shadow: 3px 5px 8px;
+}
+a {
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+	margin-left: 1.25em;
+	margin-bottom: 1.5em;
+}
+ul li{
+	box-shadow: 1px 3px 8px;
+	list-style-type: none;
+	width: 200px;
+	margin-bottom: .5em;
+	border: 2px solid blue;
+}
+ul li a{
+	padding: .5em 0 .5em 1.5em;
+}
+ul li a.content{
+	background-color: silver;
+}
