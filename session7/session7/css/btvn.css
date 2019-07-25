@@ -1,0 +1,55 @@
+@font-face{
+	font-family: Arial;
+	font-size: 21px;
+	height: auto;
+}
+body {
+	box-shadow: 3px 5px 8px;
+	background-color: white;
+}
+h1 { 
+	font-size: 250%;
+	text-shadow: 2px 2px 2px black;
+}
+h2 { font-size: 130%;
+	text-shadow: 2px 2px 2px black;
+}
+img { float: left; }
+
+#nav_anime ul {
+	list-style-type: none;
+}
+#nav_anime li{
+	border-right: 1px solid #bbb;
+}
+#nav_anime ul li {
+	margin-bottom: .5em;
+	float: left;
+	border: 1px solid black;
+	border-color: blue;
+}
+#nav_anime ul li a {
+	text-align: center;
+	display: block;
+	width: 175px;
+	padding: 1em 0;
+	font-weight: bold;
+	color: green;
+	text-decoration: all;
+}
+#nav_anime ul li a.current{
+	color: orange;
+}
+#nav_baka ul li a.shokugeki{
+	color: gray;
+}
+#nav_baka ul li a.combat{
+	color: green;
+}
+#nav_baka ul li a.fairy{
+	color: orange;
+}
+.someone{
+	text-align: justify-all;
+	text-indent: 20px;
+}

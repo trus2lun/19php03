@@ -1,0 +1,24 @@
+ul {
+	list-style-type: none;
+	margin-left: 1.25em;
+	margin-bottom: 1.5em;
+}
+ul li {
+	margin-bottom: .5em;
+	border: 2px solid blue;
+	float: left;
+}
+ul li a {
+	text-align: center;
+	display: block;
+	width: 175px;
+	padding: 1em 0;
+	text-decoration: none;
+	background-color: blue;
+	font-weight: bold;
+	color: white;
+	border: 2px solid white;
+}
+ul li a.content {
+	color: yellow
+}
