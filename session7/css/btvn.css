@@ -1,3 +1,12 @@
+@font-face{
+	font-family: Arial;
+	font-size: 21px;
+	height: auto;
+}
+body {
+	box-shadow: 3px 5px 8px;
+	background-color: white;
+}
 h1 { 
 	font-size: 250%;
 	text-shadow: 2px 2px 2px black;
@@ -40,7 +49,7 @@ img { float: left; }
 #nav_baka ul li a.fairy{
 	color: orange;
 }
-h3, h4, h5 {
-	font-size: 21px;
-	height: auto;
+.someone{
+	text-align: justify-all;
+	text-indent: 20px;
 }
