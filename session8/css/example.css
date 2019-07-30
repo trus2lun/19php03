@@ -15,6 +15,7 @@ body {
 	background-color: #F6E4E4;
 }
 #demo1 header {
+	margin: 15px;
 	padding-top: 50px;
 	padding-bottom: 65px;
 	border-bottom: 2px solid orange;
@@ -27,7 +28,7 @@ h2 {
 	font-size: 130%;
 	text-shadow: 2px 2px 2px black;
 }
-img { float: left; }
+img { float: left;}
 #nav_anime {
 	height: 20px;
     margin-right: 40px;
@@ -35,7 +36,7 @@ img { float: left; }
 }
 #nav_anime ul {
 	list-style-type: none;
-	padding: 10px;
+	padding: 5px;
 }
 #nav_anime li {
 	margin-right: 10px;
@@ -50,7 +51,6 @@ img { float: left; }
 #nav_anime ul li a {
 	margin-bottom: 1px;
 	display: block;
-	width: 100px ;
 	padding: 1px 0;
 	font-weight: bold;
 	color: green;
@@ -59,19 +59,19 @@ img { float: left; }
 #nav_anime ul li a.current {
 	color: orange;
 	font-family: arial;
-	font-size: 11.3px;
+	font-size: 15px;
 }
 #nav_anime ul li a.soibeti {
 	font-family: arial;
-	font-size: 11.3px;
+	font-size: 15px;
 }
 #nav_anime ul li a.mixi {
 	font-family: arial;
-	font-size: 11.3px;
+	font-size: 15px;
 }
 #nav_anime ul li a.trangmixi {
 	font-family: arial;
-	font-size: 11.3px;
+	font-size: 15px;
 }
 #nav_baka ul li a.shokugeki {
 	color: gray;
@@ -83,8 +83,10 @@ img { float: left; }
 	color: orange;
 }
 #div_body {
-	margin-top: 15px;
+	margin-top: 25px;
 	border-top: 3px solid orange;
+	margin-right: 15px;
+	margin-left: 15px;
 }
 h3 {
 	font-size: 25px;
