@@ -9,7 +9,7 @@ body {
 #demo1 {
 	width: 90%;
 	border: 1px solid black;
-	height: 800px;
+	height: 700px;
 	margin: 30px auto;
 	border-radius: 5%;
 	background-color: #F6E4E4;
@@ -105,12 +105,12 @@ h5 {
 	width: 45%;
 	float: left;
 	border-right: 2px solid orange;
-	height: 55%;
-	margin-top: 20px;
+	margin-top: 38px;
 	margin-bottom: 20px;
 	margin-left: 20px;
 }
 #oneechan {
+	margin-bottom: 30px;
 	width: 40%;
 	float: left;
 	margin-left: 30px;
