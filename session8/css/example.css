@@ -1,17 +1,22 @@
+* {
+	padding: 0;
+	margin: 0;
+}
 body {
 	background-image: linear-gradient(to bottom, #ada, yellow);
 	height: 500px;
 }
 #demo1 {
-	width: 80%;
+	width: 70%;
 	border: 1px solid black;
-	height: 799px;
+	height: 800px;
 	margin: 30px auto;
 	border-radius: 5%;
 	background-color: #F6E4E4;
 }
 #demo1 header {
-	padding-bottom: 1px;
+	padding-top: 50px;
+	padding-bottom: 65px;
 	border-bottom: 2px solid orange;
 }
 h1 { 
@@ -22,7 +27,9 @@ h2 {
 	font-size: 130%;
 	text-shadow: 2px 2px 2px black;
 }
-img { float: left;}
+img { 
+	float: left; 
+}
 #nav_anime {
 	height: 20px;
     margin-right: 40px;
@@ -38,7 +45,6 @@ img { float: left;}
 }
 #nav_anime ul li {
 	margin-right: 50px;
-	margin-left: 40px;
 	float: left;
 	padding-right: 19px;
 	border-right: 3px solid orange;
@@ -96,16 +102,18 @@ h5 {
 	text-indent: 20px;
 }
 #onichan {
-	width: 55%;
+	width: 45%;
 	float: left;
 	border-right: 2px solid orange;
 	height: 55%;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	margin-left: 20px;
 }
 #oneechan {
-	width: 43%;
+	width: 40%;
 	float: left;
+	margin-left: 30px;
 }
 #oneechan h6 {
 	font-weight: bold;
