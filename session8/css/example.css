@@ -1,0 +1,119 @@
+body {
+	background-image: linear-gradient(to bottom, #ada, yellow);
+	height: 500px;
+}
+#demo1 {
+	width: 80%;
+	border: 1px solid black;
+	height: 799px;
+	margin: 30px auto;
+	border-radius: 5%;
+	background-color: #F6E4E4;
+}
+#demo1 header {
+	padding-bottom: 2px;
+	border-bottom: 2px solid orange;
+}
+h1 { 
+	font-size: 250%;
+	text-shadow: 2px 2px 2px black;
+}
+h2 { 
+	font-size: 130%;
+	text-shadow: 2px 2px 2px black;
+}
+img { 
+	float: left; }
+#nav_anime {
+	height: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+#nav_anime ul {
+	list-style-type: none;
+	padding: 10px;
+}
+#nav_anime li {
+	margin-right: 10px;
+	padding-right: 10px;
+}
+#nav_anime ul li {
+	margin-right: 40px;
+	margin-left: 40px;
+	float: left;
+	padding-right: 10px;
+	border-right: 3px solid orange;
+}
+#nav_anime ul li a {
+	text-align: center;
+	display: block;
+	width: 150px ;
+	padding: 1px 0;
+	font-weight: bold;
+	color: green;
+	text-decoration: none;
+
+}
+#nav_anime ul li a.current {
+	color: orange;
+}
+#nav_baka ul li a.shokugeki {
+	color: gray;
+}
+#nav_baka ul li a.combat {
+	color: green;
+}
+#nav_baka ul li a.fairy {
+	color: orange;
+}
+#div_body {
+	margin-top: 25px;
+	border-top: 3px solid orange;
+}
+h3 {
+	font-size: 25px;
+}
+h4 {
+	font-size: 25px;
+}
+h5 {
+	font-size: 25px;
+}
+.someone {
+	text-align: justify-all;
+	text-indent: 20px;
+}
+#onichan {
+	width: 55%;
+	float: left;
+	border-right: 2px solid orange;
+	height: 55%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#oneechan {
+	width: 43%;
+	float: left;
+}
+#oneechan h6 {
+	font-weight: bold;
+	margin-top: 40px;
+	font-size: 25px;
+	margin-bottom: 25px;
+}
+#oneechan ul li {
+	font-size: 20px;
+}
+#ending {
+	clear: both;
+	border-top: 2px solid orange;
+	height: 100px;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+#ending p {
+	float: right;
+	font-family: arial;
+	font-size: 15px;
+    font-weight: normal;
+}
