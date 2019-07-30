@@ -42,12 +42,11 @@ img {
 	margin-right: 50px;
 	margin-left: 40px;
 	float: left;
-	padding-right: 5px;
+	padding-right: 19px;
 	border-right: 3px solid orange;
 }
 #nav_anime ul li a {
 	margin-bottom: 1px;
-	text-align: center;
 	display: block;
 	width: 100px ;
 	padding: 1px 0;
@@ -57,16 +56,16 @@ img {
 }
 #nav_anime ul li a.current {
 	color: orange;
-	font-size: 10.5px;
+	font-size: 12.5px;
 }
 #nav_anime ul li a.soibeti {
-	font-size: 10.5px
+	font-size: 12.5px
 }
 #nav_anime ul li a.mixi {
-	font-size: 10.5px;
+	font-size: 12.5px;
 }
 #nav_anime ul li a.trangmixi {
-	font-size: 10.5px;
+	font-size: 12.5px;
 }
 #nav_baka ul li a.shokugeki {
 	color: gray;
