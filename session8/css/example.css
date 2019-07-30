@@ -22,9 +22,7 @@ h2 {
 	font-size: 130%;
 	text-shadow: 2px 2px 2px black;
 }
-img { 
-	float: left; 
-}
+img { float: left;}
 #nav_anime {
 	height: 20px;
     margin-right: 40px;
