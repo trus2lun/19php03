@@ -20,6 +20,9 @@ body {
 	padding-bottom: 65px;
 	border-bottom: 2px solid orange;
 }
+#demo2 {
+	margin-left: 15px;
+}
 h1 { 
 	font-size: 250%;
 	text-shadow: 2px 2px 2px black;
@@ -28,7 +31,10 @@ h2 {
 	font-size: 130%;
 	text-shadow: 2px 2px 2px black;
 }
-img { float: left;}
+img { 
+	float: left;
+	margin-right: 30px;
+}
 #nav_anime {
 	height: 20px;
     margin-right: 40px;
@@ -36,7 +42,6 @@ img { float: left;}
 }
 #nav_anime ul {
 	list-style-type: none;
-	padding: 5px;
 }
 #nav_anime li {
 	margin-right: 10px;
@@ -73,6 +78,9 @@ img { float: left;}
 	font-family: arial;
 	font-size: 15px;
 }
+#nav_baka ul li {
+	list-style-type: none;
+}
 #nav_baka ul li a.shokugeki {
 	color: gray;
 }
@@ -83,7 +91,7 @@ img { float: left;}
 	color: orange;
 }
 #div_body {
-	margin-top: 25px;
+	margin-top: 10px;
 	border-top: 3px solid orange;
 	margin-right: 15px;
 	margin-left: 15px;
@@ -99,7 +107,7 @@ h5 {
 }
 .someone {
 	text-align: justify-all;
-	text-indent: 20px;
+	margin-right: 20px;
 }
 #onichan {
 	width: 45%;
@@ -122,6 +130,9 @@ h5 {
 	margin-bottom: 25px;
 }
 #oneechan ul li {
+    list-style-type: none;
+}
+#oneechan ul li {
 	font-size: 20px;
 }
 #ending {
@@ -130,6 +141,8 @@ h5 {
 	height: 100px;
 	margin-right: 40px;
 	margin-left: 40px;
+	padding-top: 15px;
+	padding-right: 30px;
 }
 #ending p {
 	float: right;
