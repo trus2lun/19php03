@@ -16,7 +16,7 @@ body {
 }
 #demo1 header {
 	margin: 15px;
-	padding-top: 50px;
+	padding-top: 30px;
 	padding-bottom: 65px;
 	border-bottom: 2px solid orange;
 }
@@ -127,24 +127,22 @@ h5 {
 	font-weight: bold;
 	margin-top: 40px;
 	font-size: 25px;
-	margin-bottom: 25px;
+	margin-bottom: 10px;
 }
 #oneechan ul li {
     list-style-type: none;
 }
 #oneechan ul li {
-	font-size: 20px;
+	font-size: 25px;
 }
 #ending {
 	clear: both;
 	border-top: 2px solid orange;
-	height: 100px;
 	margin-right: 40px;
 	margin-left: 40px;
-	padding-top: 15px;
 	padding-right: 30px;
 }
-#ending p {
+#ending i {
 	float: right;
 	font-family: arial;
 	font-size: 15px;
