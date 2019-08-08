@@ -19,12 +19,15 @@ body {
     width: 50%;
     padding: 50px;
     height: 300px;
+    background-color: #E7EAEB;
 }
 #left {
 	float: left;
 }
 #left form {
+	background-color: white;
 	border-style: groove;
+	border-radius: 10px;
 	height: 200px;
 	width: 220px;
 }
@@ -32,9 +35,11 @@ body {
     margin-left: 230px;
 }
 #right form {
+	background-color: white;
 	border-style: groove;
+	border-radius: 10px;
 	width: 390px;
-	height: 200px;
+	height: 240px;
 }
 #souma form p input.mixi1 {
 	margin: 15px;
