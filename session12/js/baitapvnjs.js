@@ -68,9 +68,9 @@ document.write('<br>');
 function phuonganchiatien() {
 	var a,b,c,phuongan = 0;
 	var tong = 1000000;
-	for (var a = 0; a <= tong/10000 ; ++a) {
-		for (var b = 0; b < tong/20000 ; ++b) {
-			for (var c = 0; c <= tong/50000 ; ++c) {
+	for (var a = 0; a <= tong/10000 ; a++) {
+		for (var b = 0; b < tong/20000 ; b++) {
+			for (var c = 0; c <= tong/50000 ; c++) {
 				if (10000*a + 20000*b + 50000*c == tong) {
 					phuongan++;
 				}
