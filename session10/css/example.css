@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+*font-face {
+	font-family: arial-verdana;
+	font-size: 30px;
+}
+h1 {
+	text-align: center;
+	margin-bottom: 64px;
+}
+.contaiter {
+	width: 90%;
+	margin: 0 auto;
+}
+.login {
+	width: 227px;
+	float: left;
+	margin-right: 60px;
+	margin-left: 330px;
+}
+.register {
+	width: 227px;
+	float: left;
+}
+.login_form, .register_form {
+	border: 1px solid grey;
+	float: left;
+	width: 100%;
+	padding: 20px 15px;
+}
+.login_form {
+	height: 270px;
+}
+.register_form {
+	height: 270px;
+}

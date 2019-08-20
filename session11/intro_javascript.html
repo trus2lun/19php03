@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Introduce javascript - Session 11</title>
+	<link rel="stylesheet" href="css/intro_javascript.css">
+	<!-- External js -->
+	<script src="js/intro_javascript.js"></script>
+	<!-- Internal js -->
+<!-- 	<script>
+		alert('test internal aaa');
+	</script>
+ -->
+</head>
+<body>
+	<!-- Inline js -->
+<!-- 	<p onclick="alert('test inline kkk')">Test inline</p> -->
+<!-- 1) Thay đổi nội dung HTML -->
+<p id="demo1">Hello 19PHP03</p>
+<p id="demo2">Hello SDC</p>
+<a href="#" onclick="document.getElementById('demo2').innerHTML = '<h1>Hi Javascript</h1>'">Change HTML</a>
+
+<!-- 2) Thay đổi thuộc tính của HTML -->
+<img src="img/girlxinh.jpg" alt="Image" id="demo3">
+<a href="#" onclick="document.getElementById('demo3').src = 'img/degea.jpg'">Change attribute</a>
+
+<!-- 3) Thay đổi style của HTML -->
+<p id="demo4">My javascript!</p>
+<a href="#" onclick="document.getElementById('demo4').style.color = 'green'">Change style</a>
+<a href="#" onclick="document.getElementById('demo4').style.fontSize = '30px'">Change fontSize</a>
+
+<!-- 4) Ẩn đối tượng HTML -->
+<p id="demo5">My text1!</p>
+<a href="#" onclick="document.getElementById('demo5').style.display = 'none'">Hide element</a>
+
+<!-- 5) Hiển thị nội dung HTML -->
+<a href="#" onclick="document.getElementById('demo5').style.display = 'block'">Show element</a>
+</body>
+</html>
