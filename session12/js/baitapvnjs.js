@@ -60,7 +60,7 @@ function baonhieukeo(){
 baonhieukeo();
 document.write('<br>');
 //BT3. Cần có tổng 1.000.000 đồng từ 3 loại tiền 10.000 đồng, 20.000 đồng, 50.000 đồng. 
-//Lập chương trình để tìm ra tất cả các phương án có thể
+//Lập chương trình để tìm ra tất cả các phương án có thể. Ít nhất có 1 loại tiền 
 //gọi a là số tiền loại 10.000, b là số tiền loại 20.000, c là số tiền loại 50.000 
 //hệ : 10000a + 20000b + 50000c = 1000000
 document.write('--------------BT3');
@@ -68,16 +68,16 @@ document.write('<br>');
 function phuonganchiatien() {
 	var a,b,c,phuongan = 0;
 	var tong = 1000000;
-	for (var a = 0; a <= tong/10000 ; a++) {
-		for (var b = 0; b < tong/20000 ; b++) {
-			for (var c = 0; c <= tong/50000 ; c++) {
+	for (var a = 1; a <= tong/10000 ; a++) {
+		for (var b = 1; b < tong/20000 ; b++) {
+			for (var c = 1; c <= tong/50000 ; c++) {
 				if (10000*a + 20000*b + 50000*c == tong) {
 					phuongan++;
 				}
 			}
 		}
 	}
-	document.write("So cach chia tien: ");
+	document.write("So cach chia tien: \n");
 	document.write(phuongan);
 }
 phuonganchiatien();
