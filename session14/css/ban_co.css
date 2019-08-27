@@ -1,0 +1,18 @@
+.ban_co {
+	width: 640px;
+	margin: 0 auto;
+	border: 1px solid grey;
+	height: 640px;
+}
+.box_black {
+	width: 80px;
+	height: 80px;
+	background-color: #000;
+	float: left;
+}
+.box_white {
+	width: 80px;
+	height: 80px;
+	background-color: #fff;
+	float: left;
+}
