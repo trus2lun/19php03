@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tinh tien dien - session 18</title>
+	<link rel="stylesheet" href="css/tiendien.css">
+</head>
+<body>
+	<h1>Phieu tinh tien dien</h1>
+	<div id="form">
+		<form name="tienDien" action="#" class="form-tiendien">
+			<div id="input-control">
+			    <p>Họ và Tên:</p>
+			</div>
+			<div class="input">
+				<input type="text" name="Name" placeholder="Enter your full name" id="name">
+				<span id="errorName" class="error"></span>
+			</div>
+			<div id="input-control">
+				<p>Số điện đầu kì:</p>
+			<div class="input">
+			    <input type="text" name="first_number" placeholder="Enter your number" id="first_number">
+			    <span id="errorFirstNumber" class="error"></span>
+			</div>
+			<div id="input-control">
+			    <p>Số điện cuối kì:</p>
+			</div>
+			<div id="input">
+				<input type="text" name="last_number" placeholder="Enter your number" id="last_number">
+				<span id="errorLastNumber" class="error"></span>
+			</div>
+			<div id="input-control">
+				<p>Ngày đầu kì:</p>
+			</div>
+			<div id="input">
+				<input type="date" name="first_day" id="first_day">
+				<span id="errorFirstDate" class="error"></span>
+			</div>
+			<div id="input-control">
+				<p>Ngày cuối kì:</p>
+			</div>
+			<div id="input-control">
+				<input type="date" name="last_day" id="last_day">
+				<span id="errorLastDate" class="error"></span>
+			</div>
+			<input type="button" name="Tinh tien dien" value="Tinh tien dien" onclick="TienDien()">
+		</form>
+    </div>
+    <script src="js/tiendien.js"></script>
+</body>
+</html>

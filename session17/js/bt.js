@@ -14,23 +14,30 @@
 //Họ tên...Tính điện từ ngày...
 //đến ngày...sử dụng...số với số tiền là:....
 function validateRegister() {
- 	var username, password;
+ 	var name, number, day;
  	//lấy giá trị của input username
- 	username = document.getElementById('username').value;
- 	password = document.getElementById('password').value;
- 	if (username == '') {
- 		document.getElementById('errorUsername').innerHTML = 
- 		'Please input your username';
+ 	name = document.getElementById('name').value;
+ 	number = document.getElementById('number').value;
+ 	day = document.getElementById('day').value;
+ 	if (name == '') {
+ 		document.getElementById('errorName').innerHTML = 
+ 		'Please input your name';
     } else {
-    	document.getElementById('errorUsername').innerHTML = '';
+    	document.getElementById('errorName').innerHTML = '';
     }
-    if (password == '') {
- 		document.getElementById('errorPassword').innerHTML = 
- 		'Please input your password';
+    if (number == '') {
+ 		document.getElementById('errorNumber').innerHTML = 
+ 		'Please input your number';
  	} else {
- 		document.getElementById('errorPassword').innerHTML = '';
+ 		document.getElementById('errorNumber').innerHTML = '';
  	}
- 	if ((username != '') && (password != '')) {
- 		document.getElementById('textSuccess').innerHTML = 'Register Success';
+ 	if (day == '') {
+ 		document.getElementById('errorDay').innerHTML =
+ 		'Please input your day';
+ 	} else {
+ 		document.getElementById('errorDay').innerHTML = '';
+ 	}
+ 	if ((name != '') && (number != '') && (day != '')) {
+ 		document.getElementById('mixi').innerHTML = 'Register Success';
  	}
 }

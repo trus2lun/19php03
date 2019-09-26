@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Đăng Kí</title>
+	<link rel="stylesheet" href="css/dangki.css">
+</head>
+<body>
+	<h1>Phiếu Đăng Kí</h1>
+	<div id="form">
+		<form name="DangKi" action="#" class="form-dangki">
+			<div class="input-control">
+				<div class="text">
+					Họ và Tên:
+				</div>
+				<div class="input">
+					<input type="text" name="name" id="name">
+					<span class="error" id="errorName"></span>
+				</div>
+			</div>
+			<div class="input-control">
+				<div class="text">
+					Giới tính:
+				</div>
+				<div class="input">
+					<input type="radio" name="gender" checked>Other
+					<input type="radio" name="gender">Male<br>
+					<input type="radio" name="gender">Female<br>
+					<span class="error" id="errorSex"></span>
+				</div>
+			</div>
+			<div class="input-control">
+				<div class="text">
+					Ngày sinh:
+				</div>
+				<div class="input">
+					<input type="date" name="day of birth" id="day of birth">
+					<span class="error" id="errorDate"></span>
+				</div>
+			</div>
+			<div class="input-control">
+				<div class="text">
+					Tỉnh thành:
+				</div>
+				<div class="select">
+					<select name="city">
+						<option value="selectCity" checked>City</option>
+						<option value="QuangNam">Quảng Nam</option>
+						<option value="DaNang">Đà Nẵng</option>
+						<option value="Hue">Huế</option>
+					</select>
+					<span class="error" id="errorCity"></span>
+				</div>
+			</div>
+			<div class="input-control">
+				<input type="button" name="DangKi" value="DangKi" onclick="DangKi()">
+			</div>
+			<p id="printContent"></p>
+		</form>
+		<script src="js/dangki.js"></script>
+	</div>
+</body>
+</html>

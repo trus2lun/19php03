@@ -1,0 +1,27 @@
+h1 {
+	text-align: center;
+	color: #3D0E84
+}
+input {
+	width: 280px;
+}
+.form-tiendien {
+	width: 60%;
+	margin: 0 auto;
+	border: 1px solid gray;
+	height: 440px;
+}
+.form-something {
+	padding-left: 222px; 
+}
+.input-control {
+	width: 80%;
+	margin: 15px auto;
+	padding: 15px;
+}
+.input {
+	width: 470px;
+}
+.error {
+	color: red;
+}
